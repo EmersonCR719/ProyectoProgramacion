@@ -17,13 +17,13 @@ public class mainApp extends javax.swing.JFrame {
      * Creates new form mainApp
      */
     EstudianteGUI estguix;
-    NotasGUI notaguix;
+    //NotasGUI notaguix;
     
     public mainApp() {
         initComponents();
         this.setLocationRelativeTo(this);
         estguix = null;
-        notaguix = null;
+        //notaguix = null;
     }
 
     /**
@@ -127,16 +127,16 @@ public class mainApp extends javax.swing.JFrame {
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
         // TODO add your handling code here:
-        if(notaguix ==null)  {
-            notaguix = new NotasGUI(new javax.swing.JFrame(), true);
-            notaguix.addWindowListener(new java.awt.event.WindowAdapter() {
-                @Override
-                public void windowClosing(java.awt.event.WindowEvent e) {
-
-                }
-            });
-        }
-        notaguix.setVisible(true);
+//        if(notaguix ==null)  {
+//            notaguix = new NotasGUI(new javax.swing.JFrame(), true);
+//            notaguix.addWindowListener(new java.awt.event.WindowAdapter() {
+//                @Override
+//                public void windowClosing(java.awt.event.WindowEvent e) {
+//
+//                }
+//            });
+//        }
+//        notaguix.setVisible(true);
     }//GEN-LAST:event_jLabel2MouseClicked
     public void cargarfotoEst(int x){
     String carpeta= "C:\\Proyecto\\Proyecto\\src\\VISTA\\Imagenes\\";
